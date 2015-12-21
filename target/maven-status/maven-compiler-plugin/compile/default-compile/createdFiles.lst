@@ -1,0 +1,5 @@
+org\cisco\cidemo\weather\Main.class
+org\cisco\cidemo\weather\YahooParser.class
+org\cisco\cidemo\weather\Weather.class
+org\cisco\cidemo\weather\YahooRetriever.class
+org\cisco\cidemo\weather\WeatherFormatter.class
