@@ -16,12 +16,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://52.26.82.229:8081/nexus/content/repositories/releases/</url>
+            <url>http://http://52.33.132.31:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://52.26.82.229:8081/nexus/content/repositories/cidemo/</url>
+            <url>http://http://52.33.132.31:8081/nexus/content/repositories/cidemo/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
