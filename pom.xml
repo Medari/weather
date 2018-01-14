@@ -13,15 +13,15 @@
     <module>simple-parent</module>
   </modules>
     <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://http://52.33.132.31:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://http://52.33.132.31:8081/nexus/content/repositories/cidemo/</url>
-        </snapshotRepository>
+       <repository>
+        <id>central</id>
+        <name>master.com-releases</name>
+        <url>http://192.168.217.162:8081/artifactory/libs-release</url>
+    </repository>
+       <snapshotRepository>
+        <id>snapshots</id>
+        <name>master.com-snapshots</name>
+        <url>http://192.168.217.162:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
     </distributionManagement>
 </project>
