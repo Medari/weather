@@ -12,16 +12,16 @@
   <modules>
     <module>simple-parent</module>
   </modules>
-          <distributionManagement>
-       <repository>
+    <distributionManagement>
+    <repository>
         <id>central</id>
-        <name>master.com-releases</name>
-        <url>http://192.168.217.162:8081/artifactory/libs-release</url>
+        <name>jenkinsnode1.server.com-releases</name>
+        <url>http://192.168.217.151:8081/artifactory/devops</url>
     </repository>
-       <snapshotRepository>
+    <snapshotRepository>
         <id>snapshots</id>
-        <name>master.com-snapshots</name>
-        <url>http://192.168.217.162:8081/artifactory/libs-snapshot</url>
+        <name>jenkinsnode1.server.com-snapshots</name>
+        <url>http://192.168.217.151:8081/artifactory/devops</url>
     </snapshotRepository>
-    </distributionManagement>
+</distributionManagement>
   </project>
