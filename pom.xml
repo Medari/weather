@@ -12,5 +12,16 @@
   <modules>
     <module>simple-parent</module>
   </modules>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jenkinsnode1.server.com-releases</name>
+        <url>http://192.168.217.151:8081/artifactory/devops</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jenkinsnode1.server.com-snapshots</name>
+        <url>http://192.168.217.151:8081/artifactory/devops</url>
+    </snapshotRepository>
+</distributionManagement>
   </project>
